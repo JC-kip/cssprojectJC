@@ -4,6 +4,9 @@ body {
 h1 {
     text-align: center;
 }
+p {
+    margin-left: 10px;
+}
 .feed {
     display: flex;
     flex-direction: column;
@@ -11,4 +14,47 @@ h1 {
     align-items: center;
     background-color: lightgray;
 }
-
+.header1 {
+    display: flex;
+    background-color: white;
+    width: 600px;
+}
+.header2, .header3, .header4 {
+    display: flex;
+    background-color: white;
+}
+.title1 {
+    padding-right: 72%;
+}
+.title2 {
+    padding-right: 70%;
+}
+.title3 {
+    padding-right: 57%;
+}
+.title4 {
+    padding-right: 64%;
+}
+.footer1 {
+    display: flex;
+    background-color: white;
+    width: 600px;
+}
+.footer2, .footer3, .footer4 {
+    display: flex;
+    background-color: white;
+}
+img {
+    display: flex;
+    height: 600px;
+    width: 600px;
+}
+.date1, .date2, .date3, .date4 {
+    color: lightgray;
+}
+#post1 {
+    margin-top: 40px;
+}
+#post1, #post2, #post3, #post4 {
+    margin-bottom: 40px;
+}
